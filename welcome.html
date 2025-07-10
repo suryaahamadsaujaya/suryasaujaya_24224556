@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcomestyle.css">
+
+    <title>AKIHABARA GAMEE CAFFEE</title>
+    <style>
+        p.dates{
+            font-size: 7rem;
+            font-family: cursive;
+            color: rgb(30, 31, 32);
+            text-shadow: 1px 1px 7px rgb(58, 17, 17);
+        }
+    </style>
+</head>
+<body>
+    <div class="bloody"></div>
+     <div class="layer-blur"></div>
+     <div class="layer-blurno2"></div>
+    <section class="container">
+        <div class="sliderr2">
+    <div class="myslide">
+        <img id="pc1" src="images/radagon.png" alt="radagon">
+       <img src="images/godfrey.jpg" alt="godfrey" id="pc2">
+       <img src="images/radahn.jpg" alt="radahn" id="pc3">
+       
+    </div>
+    <div class="sliderr-nav">
+        <a href="#pc1"></a>
+        <a href="#pc2"></a>
+        <a href="#pc3"></a>
+    </div>
+    </div>
+    </section>
+    <div class="content">
+         <nav class="navbar navbar-expand-lg">                
+                    <div class="container">
+                       <a class="navbav-helio" href="index.html">
+                        <p class="logo-font">
+                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            AKIHABARA GAMEE CAFFE
+                        </p></a>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <a class="nav-li" href="https://www.tooplate.com/view/2137-barista-cafe#google_vignette" target="_blank">WEBSITE ORIGINAL TEMPLATE</a>
+                            <div class="ms-lg-3">
+                                <a class="btn-reservation" href="reservation.html">
+                                    Reservation
+                                    <i class="bi-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+    
+        <h2>Summer Peak Special</h2>
+        <h2>Welocme Tarnish</h2>
+        <p class="dates" id="dates"></p>
+        <script>
+            let dash="\u002D";
+            var a, b 
+            a=14
+            b=17
+            document.getElementById("dates").innerHTML= a + dash + b;
+        </script>
+        <div class="dates-container" id="whendates">
+        </div>
+    </div>
+    <script src="welcomejava.js"></script>
+</body>
+</html>
